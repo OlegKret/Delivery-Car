@@ -1,0 +1,35 @@
+We used transform.Rotate() to rotate our car
+transform.Translate() to move the car
+SerializeField add atribute
+Input System Edit -> Project Settings -> Input Manager -> Horizontal(Vertical)
+Input.GetAxis("Horizontal");
+
+Time.deltaTime Unity can tell us how long each frame took execute.
+frame rate independent
+
+Colliders = collision
+RigidBody can interact fisical system
+
+OnCollisionEnter2D _> add component(script) = Event
+
+Triger add Colider + check isTriger
+
+OnTriggerEnter
+
+FollowCamera
+transform.position = thingToFollow
+.transform.position; creating A "Reference"serialisefield -> GameObject
+MainCamera -> thing to follow
+
++new Vector3 - addmath to camera
+
+subscribe on tag
+
+Destroy() objects from scene
+
+Color32
+SpriteRenderer - Tipe
+
+GetComponent<SpriteRenderer>(); - get component
+
+OnCollisionEnter2D(Collision 2D other) -> move +++ or ----
